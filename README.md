@@ -111,6 +111,8 @@ La app ya colapsa espacios; puedes sumar reglas adicionales (ver Roadmap).
 
  Reporte JSON de consolidación/limpieza.
 
+ Deploy trigger: $(date)
+
  
 
 🙌 Créditos
