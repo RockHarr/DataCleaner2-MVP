@@ -6,7 +6,11 @@ MVP para **unificar y limpiar planillas CSV** típicas del sector público chile
 Pensado para equipos de gestión, transparencia, planificación y estadísticas que
 trabajan con datos provenientes de distintas fuentes (Excel, sistemas heredados, oficinas regionales).
 
----
+### 🌐 Demo en vivo
+
+DataCleaner v0.1.0 MVP está disponible en:  
+👉 https://rockharr.github.io/DataCleaner2-MVP/
+
 
 ## uncionalidades
 
