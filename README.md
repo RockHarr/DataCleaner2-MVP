@@ -8,7 +8,7 @@ trabajan con datos provenientes de distintas fuentes (Excel, sistemas heredados,
 
 ---
 
-## ✨ Funcionalidades
+## uncionalidades
 
 - **Subir múltiples CSV** y previsualizar columnas.
 - **Mapeo de columnas** de origen → campos destino (`rut`, `nombres`, `region`).
@@ -24,7 +24,7 @@ trabajan con datos provenientes de distintas fuentes (Excel, sistemas heredados,
 ---
 
 
-🧭 Uso
+Uso
 
 Sube tus CSV (arrastrar/soltar o botón “Elegir archivos”).
 
@@ -40,7 +40,7 @@ Compatibilidad Excel (BOM+CRLF): ✔️ recomendado.
 
 Haz clic en Exportar CSV y abre el archivo en Excel.
 
-🧼 Reglas de limpieza
+Reglas de limpieza
 
 RUT
 
@@ -89,7 +89,7 @@ npm run build — Build de producción.
 
 npm run preview — Sirve el build localmente.
 
-❗ Troubleshooting
+Troubleshooting
 
 Excel muestra caracteres raros (Ã, �, etc.).
 Exporta con “Compatibilidad Excel (BOM+CRLF)” ✔️.
@@ -99,7 +99,7 @@ Los nombres salen con espacios dobles/puntos raros.
 Revisa que tu fuente no traiga caracteres invisibles.
 La app ya colapsa espacios; puedes sumar reglas adicionales (ver Roadmap).
 
-🗺️ Roadmap breve
+Roadmap breve
 
  Validación DV de RUT (Módulo 11) con conteo de inválidos.
 
@@ -114,7 +114,7 @@ La app ya colapsa espacios; puedes sumar reglas adicionales (ver Roadmap).
 
  
 
-🙌 Créditos
+ Créditos
 
 Hecho por Rockwell Harrison Hernández y Spark (tu copiloto)
 
