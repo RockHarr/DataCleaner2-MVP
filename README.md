@@ -23,31 +23,7 @@ trabajan con datos provenientes de distintas fuentes (Excel, sistemas heredados,
 
 ---
 
-## 🖥 Demo / Desarrollo
 
-### Opción A: StackBlitz (recomendado para primera prueba)
-
-1. Abrir el proyecto en StackBlitz.
-2. Esperar que levante el contenedor y el servidor.
-3. Listo: probar con los CSV de `/samples`.
-
-### Opción B: Local (VS Code)
-
-```bash
-# Requisitos: Node 18+ (recomendado 20.x)
-
-# 1) Instalar dependencias
-npm i
-
-# 2) Desarrollo
-npm run dev
-
-# 3) Build de producción
-npm run build
-
-# 4) Previsualizar build
-npm run preview
-```
 🧭 Uso
 
 Sube tus CSV (arrastrar/soltar o botón “Elegir archivos”).
