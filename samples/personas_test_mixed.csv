@@ -1,0 +1,15 @@
+ID,NOMBRE COMPLETO,REGIÓN,RUT,OBS
+1,   Ana   Pérez  ,V A L P A R A Í S O,12.345.678-5,espacios y región en letras separadas
+2,Juan  Soto,Bio Bio,9.876.543-2,biobio sin tilde
+3,MARÍA-JOSÉ  ALARCÓN,RM,11.111.111-1,rm alias
+4,josé  luis    pérez,Ñuble,11.111.111-1,RUT duplicado (mismo que id 3)
+5,Soledad Nuñez,Metropolitana,15.555.555-K,DV K mayúscula
+6,Pepe,Valparaiso,1234567-0,rut mal formateado (corto)
+7,  María   López  ,   La   Araucania   ,22.222.222-2,espacios múltiples en región
+8,Sofía.  ,Biobío,22.222.222-2,"duplicado, nombre con punto residual"
+9,A. Perez,Tarapacá,33.333.333-3,inicial + punto
+10,Ñoño  Ñandú,Aysén,44.444.444-9,tildes y eñe
+11,Claudio,Magallanes y Antártica,55.555.555-5,nombre región variante
+12,Sin Region,,66.666.666-6,sin región (vacío)
+13,Nombre con  dobles   espacios,Arica y Parinacota,77.777.777-7,espacios múltiples en nombre
+14,Nombre inválido,Valparaíso,12.345.678-9,RUT con DV inválido

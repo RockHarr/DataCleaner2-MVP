@@ -1,0 +1,9 @@
+uuid,full_name,reg,rut_chile,cargo,correo
+u-001,   LOPEZ, MARIA   ,V A L P A R A I S O,1.234.567-0,Analista,maria@example.com
+u-002,SOTO; JUAN,Bio Bio,9.876.543-2,Ingeniero,juan@example.com
+u-003,PÉREZ  CLARA,,12.345.678-5,,
+u-004,ÑANDÚ ÑOÑO,RM,22.222.222-2,QA,nandu@example.com
+u-004,ÑANDÚ ÑOÑO,RM,22.222.222-2,QA,nandu@example.com
+u-005,A. PEREZ,Metropolitana,12.345.678-9,Dev,a.perez@example.com
+
+u-006,Nombre   con    espacios,   La Araucania ,33.333.333-3,UX,ux@example.com
