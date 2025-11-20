@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      :root {
+        --bg: #0b0d10;
+        --panel: #14181d;
+        --panel2: #0f1317;
+        --txt: #e9eef5;
+        --muted: #9fb0c3;
+        --primary: #3aa3ff;
+        --bd: #222a33;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body,
+      #root {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        font: 14px/1.45 system-ui, Segoe UI, Roboto, Arial, sans-serif;
+        background: radial-gradient(
+            1200px 600px at 85% -20%,
+            #102035 0%,
+            transparent 60%
+          ),
+          var(--bg);
+        color: var(--txt);
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 28px 20px 60px;
+      }
+      .title {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+        margin: 0 0 18px;
+      }
+      .card {
+        background: linear-gradient(180deg, var(--panel), var(--panel2));
+        border: 1px solid var(--bd);
+        border-radius: 14px;
+        padding: 16px;
+        box-shadow: 0 6px 30px rgba(0, 0, 0, 0.25);
+        margin-bottom: 16px;
+      }
+      .btn {
+        appearance: none;
+        border: 1px solid var(--bd);
+        background: #12161b;
+        color: var(--txt);
+        padding: 10px 14px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .btn-primary {
+        border-color: #1d3a55;
+        background: linear-gradient(180deg, #113355, #0e2741);
+        color: #d9efff;
+      }
+      .row {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .drop {
+        border: 2px dashed #3a4758;
+        border-radius: 14px;
+        padding: 26px;
+        text-align: center;
+        cursor: pointer;
+        background: repeating-linear-gradient(
+          45deg,
+          rgba(255, 255, 255, 0.02) 0 8px,
+          rgba(255, 255, 255, 0) 8px 16px
+        );
+      }
+      .drop.hover {
+        border-color: var(--primary);
+        background-color: rgba(58, 163, 255, 0.07);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        padding: 8px;
+        border-top: 1px solid var(--bd);
+        font-size: 13px;
+      }
+      thead th {
+        color: #b7c7d8;
+        text-align: left;
+      }
+      select {
+        background: #0f1317;
+        color: var(--txt);
+        border: 1px solid var(--bd);
+        border-radius: 8px;
+        padding: 6px 8px;
+      }
+    </style>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
