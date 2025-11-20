@@ -3,12 +3,11 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "build:ci": "vite build",           // ← usa este el workflow
-    "preview": "vite preview",
-    "typecheck": "tsc -b --pretty false"
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "build:ci": "vite build",
+  "typecheck": "tsc -b --pretty false"
   },
   "dependencies": {
     "papaparse": "^5.4.1",
