@@ -120,7 +120,7 @@ Roadmap breve
 
  Créditos
 
-Hecho por Rockwell Harrison Hernández y Spark (tu copiloto)
+Hecho por Rockwell Harrison Hernández y Spark
 
 Deploy trigger: $(date)
  
